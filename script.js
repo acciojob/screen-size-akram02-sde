@@ -1,6 +1,6 @@
 const container = document.getElementById("sizeInfo");
-let x = 0;
-let y = 0;
+let x = window.innerWidth;
+let y = window.innerHeight;
 
 renderXY();
 
